@@ -1,0 +1,14 @@
+.purchase-card{
+  margin-left:33%;
+  background-color: #fff;
+  width: 350px;
+  padding: 1em;
+  box-shadow: 0 4px 8px 0 rgb(0,0,0,0.2), 0 6px 20px 0 rgb(0,0,0,0.19)
+}
+
+@media only screen and (max-width: 600px) {
+  .purchase-card{
+    margin-left:auto;
+    width: 100%;
+  }
+}
